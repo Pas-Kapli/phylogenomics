@@ -60,10 +60,10 @@ if __name__ == "__main__":
         print("Usage: " + sys.argv[0] + " mcmcfile1 mcmcfile2")
         sys.exit(0)
 
-    plt.rcParams.update({
-      "text.usetex": True,
-      "font.family": "Helvetica"
-    })
+    #plt.rcParams.update({
+    #  "text.usetex": True,
+    #  "font.family": "Helvetica"
+    #})
 
     # read MCMC data
     data1, data2 = read_data(sys.argv[1], sys.argv[2])
